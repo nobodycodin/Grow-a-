@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Loading...</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+    }
+
+    .loading-screen {
+      background: url('IMG_0143.webp') no-repeat center center fixed;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .loading-text {
+      background-color: rgba(255, 255, 255, 0.7);
+      color: black;
+      font-size: 24px;
+      padding: 15px 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="loading-screen">
+    <div class="loading-text">
+      please wait while the script load<br>should take 1–3 minutes
+    </div>
+  </div>
+</body>
+</html>
